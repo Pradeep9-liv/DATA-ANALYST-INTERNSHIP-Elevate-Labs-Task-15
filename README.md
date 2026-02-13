@@ -2,7 +2,7 @@
 
 # RFM Customer Segmentation – Online Retail II
 
-## 🎯 Objectives
+## Objectives
 - Load and clean raw e-commerce transaction data
 - Remove canceled invoices and invalid records
 - Convert invoice dates into datetime format
