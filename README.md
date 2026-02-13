@@ -1,6 +1,6 @@
 # DATA-ANALYST-INTERNSHIP-Elevate-Labs-Task-15
 
-# RFM Customer Segmentation – Online Retail II
+# RFM Customer Segmentation - Online Retail II
 
 ## Objectives
 - Load and clean raw e-commerce transaction data
