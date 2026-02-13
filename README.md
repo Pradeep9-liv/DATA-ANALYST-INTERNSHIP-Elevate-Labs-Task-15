@@ -7,9 +7,9 @@
 - Remove canceled invoices and invalid records
 - Convert invoice dates into datetime format
 - Calculate RFM metrics:
-  - **Recency** – Days since last purchase
-  - **Frequency** – Number of unique purchases
-  - **Monetary** – Total customer spending
+  - **Recency** - Days since last purchase
+  - **Frequency** - Number of unique purchases
+  - **Monetary** - Total customer spending
 - Create quantile-based RFM scores
 - Assign customer segments
 - Visualize customer distribution
@@ -23,14 +23,14 @@
 **Format:** CSV  
 
 ### Key Columns
-- `Invoice` – Invoice number
-- `StockCode` – Product code
-- `Description` – Product description
-- `Quantity` – Number of items purchased
-- `InvoiceDate` – Transaction date
-- `Price` – Unit price
-- `Customer ID` – Unique customer identifier
-- `Country` – Customer location
+- `Invoice` - Invoice number
+- `StockCode` - Product code
+- `Description` - Product description
+- `Quantity` - Number of items purchased
+- `InvoiceDate` - Transaction date
+- `Price` - Unit price
+- `Customer ID` - Unique customer identifier
+- `Country` - Customer location
 
 ---
 
@@ -57,9 +57,9 @@ A snapshot date was defined as the latest transaction date + 1 day.
 ## RFM Scoring
 Quantile-based scoring (1–4 scale):
 
-- High Recency score → Recent customers
-- High Frequency score → Frequent buyers
-- High Monetary score → High spenders
+- High Recency score -> Recent customers
+- High Frequency score -> Frequent buyers
+- High Monetary score -> High spenders
 
 Combined RFM score created for segmentation.
 
